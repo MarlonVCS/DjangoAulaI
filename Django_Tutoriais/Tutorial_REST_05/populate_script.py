@@ -3,8 +3,8 @@ import os, django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 django.setup()
 
-from faker import Faker
-from validate_docbr import CPF
+from Faker import Faker
+from validate_docbr  import CPF
 import random
 from clientes.models import Cliente
 
